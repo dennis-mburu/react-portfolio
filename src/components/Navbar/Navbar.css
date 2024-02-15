@@ -1,18 +1,24 @@
+header {
+  background-color: white;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 4rem;
-  background-color: white;
   padding: 1.5rem;
+  width: 90%;
+  max-width: 1440px;
+  margin-inline: auto;
 }
 
-a {
+.nav-link {
   color: black;
   text-decoration: none;
 }
 
-li {
+.nav-item {
   list-style: none;
 }
 
