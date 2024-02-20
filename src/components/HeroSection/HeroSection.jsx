@@ -16,7 +16,7 @@ function HeroSection() {
         </p>
         <p className="description">
           Experienced developer passionate about creating seamless digital
-          experiences and specializing in crafting innovative solutions that
+          experiences. Specialized in crafting innovative solutions that
           empower businesses and delight users.
         </p>
         <p className="description">

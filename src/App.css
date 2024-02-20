@@ -33,3 +33,9 @@ body {
   min-height: 100vh;
   background-color: beige;
 }
+
+main{
+  width: 90%;
+  margin-inline: auto;
+  /* max-width: 1600px; */
+}
