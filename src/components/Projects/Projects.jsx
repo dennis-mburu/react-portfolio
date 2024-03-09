@@ -23,6 +23,7 @@ function Projects() {
                 <div className="card-front">
                   <img ref={imgRef} src={project.image} alt="screenshot" />
                 </div>
+
                 <div className="card-back">
                   <p>
                     {/* A fully functional e-commerce platform built using the MERN
@@ -31,6 +32,11 @@ function Projects() {
                   </p>
                 </div>
               </div>
+              <p class="project-title">
+                <span class="code">&lt;</span>
+                {project.name}
+                <span class="code">&#47;&gt;</span>
+              </p>
             </div>
           </>
         ))}
