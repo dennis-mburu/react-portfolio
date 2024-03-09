@@ -1,5 +1,7 @@
 .projects-section {
   padding-block: 2rem;
+  /* margin-inline: auto; */
+
 }
 
 .project-grid {
@@ -21,7 +23,6 @@
   box-shadow: 5px 5px 15px hsl(229, 6%, 66%);
   perspective: 1000px;
   overflow: hidden;
-  
 }
 
 .card-inner {
@@ -67,6 +68,12 @@
 @media (max-width: 768px) {
   .projects-section {
     padding-top: 0;
-    text-align: center;
+    /* text-align: center; */
+    display: grid;
+    place-content: center;
+    place-items: center;
+  }
+  .project-grid {
+    grid-template-columns: 400px;
   }
 }
