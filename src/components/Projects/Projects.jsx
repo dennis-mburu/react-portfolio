@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import "./Projects.css";
 import profile from "../../profile";
+import HoverGlowButton from "../HoverGlowButton/HoverGlowButton";
 
 function Projects() {
   const imgRef = useRef(null);
@@ -30,6 +31,7 @@ function Projects() {
                   stack and Redux toolkit. */}
                     {project.description}
                   </p>
+                  <HoverGlowButton />
                 </div>
               </div>
               <p class="project-title">

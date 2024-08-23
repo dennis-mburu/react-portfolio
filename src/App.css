@@ -37,5 +37,6 @@ body {
 main{
   width: 90%;
   margin-inline: auto;
-  /* max-width: 1600px; */
+  max-width: 1200px;
+  /* border: 1px solid red; */
 }

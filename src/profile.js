@@ -54,7 +54,7 @@ const profile = {
         "Intuitive interface for students",
         "Parent portal for accessing academic performance",
       ],
-      image: "/images/emall-v2.png",
+      image: "/images/edupo.png",
     },
     {
       name: "E-Mall",
@@ -65,12 +65,12 @@ const profile = {
         "Publishing and modification of products by vendors",
         "Order placement and modification by customers",
       ],
-      image: "/images/emall-v2.png",
+      image: "/images/emall.png",
     },
     {
       name: "Intern Management System",
-      description: "hey",
-        // "A system tailored for HR Managers in info-tech companies that streamlines the process of overseeing interns, tracking their supervisors, and managing departmental assignments.",
+      description:
+        "A system tailored for HR Managers in info-tech companies that streamlines the process of overseeing interns, tracking their supervisors, and managing departmental assignments.",
       features: [
         "HR managers can add, edit and remove interns",
         "Visually appealing presentation formats",
@@ -79,33 +79,9 @@ const profile = {
       image: "/images/emall-v2.png",
     },
     {
-      name: "E-Mall V2",
+      name: "Website Portfolio",
       description:
-        "A fully functional e-commerce platform built using the MERN stack and Redux toolkit.",
-      features: [
-        "Full featured shopping cart with automatic and instant price updates",
-        "Step by step checkout process",
-        "Single admin for managing products and users",
-        "Product reviews, rating, search feature, top products display + many more",
-      ],
-      image: "/images/emall-v2.png",
-    },
-    {
-      name: "E-Mall V2",
-      description:
-        "A fully functional e-commerce platform built using the MERN stack and Redux toolkit.",
-      features: [
-        "Full featured shopping cart with automatic and instant price updates",
-        "Step by step checkout process",
-        "Single admin for managing products and users",
-        "Product reviews, rating, search feature, top products display + many more",
-      ],
-      image: "/images/emall-v2.png",
-    },
-    {
-      name: "E-Mall V2",
-      description:
-        "A fully functional e-commerce platform built using the MERN stack and Redux toolkit.",
+        "A personal website portfolio built with Reactjs.",
       features: [
         "Full featured shopping cart with automatic and instant price updates",
         "Step by step checkout process",

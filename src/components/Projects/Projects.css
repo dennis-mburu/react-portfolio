@@ -37,8 +37,8 @@
   width: 100%;
   /* display: block;
   height: auto; */
-  max-height: 280px;
-  /* object-fit: cover; */
+  height: 280px;
+  /* object-fit: stretch; */
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -55,10 +55,12 @@
   transform: rotateY(180deg);
   /* background-color: green; */
 
-  display: grid;
+  /* display: grid; */
   place-content: center;
   text-align: center;
+  padding-inline: 2em;
 }
+
 
 .project-card:hover .card-inner {
   transform: rotateY(180deg);
